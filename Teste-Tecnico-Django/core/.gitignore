@@ -1,0 +1,21 @@
+# Ambientes Virtuais (Essencial para não travar o Git)
+venv/
+.venv/
+env/
+env_django/
+ENV/
+
+# Arquivos compilados do Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Banco de dados local (Recomendado pro avaliador rodar a migrate dele do zero)
+*.sqlite3
+
+# Arquivos de configuração do VS Code ou SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
